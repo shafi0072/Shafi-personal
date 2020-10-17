@@ -1,0 +1,10 @@
+.background{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.576), rgb(0, 0, 0)),
+    url(../../../image/117648437_967651573648314_6687825836864345720_o.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
