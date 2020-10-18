@@ -11,6 +11,7 @@ import hotGadget from '../../../image/Wokrs/hot-gadget.png';
 import leaderBoard from '../../../image/Wokrs/leader-board.png';
 import TravelGuru from '../../../image/Wokrs/Travel-guru.png';
 import Work2Details from '../Work2Details/Work2Details';
+import NetFlix from '../../../image/Wokrs/NetFlic.png'
 const LastWork = () => {
     useEffect(() => {
         Aos.init({duration: 2000});
@@ -60,11 +61,11 @@ const LastWork = () => {
         },
         {
             id:3,
-            name:'Leader-board',
-            Technology:'HTML, CSS, Bootstrap',
-            Links:'https://shafidark.github.io/Leader-Board/',
-            Github:'https://github.com/shafidark/Leader-Board',
-            img:leaderBoard
+            name:'NETFLIX-clone',
+            Technology:'ReactJS, ReactHooks, Axios, Firebase',
+            Links:'https://netflix-clone-9d7a6.web.app/',
+            Github:'https://github.com/shafidark/netflix-clone',
+            img:NetFlix
         }
     ];
     return (
